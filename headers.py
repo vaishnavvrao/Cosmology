@@ -7,6 +7,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 from astropy.io import ascii,fits
 import astropy.units as u
+import astropy.constants as const
 from astropy.wcs import WCS
 from astropy.table import Table
 from astropy.coordinates import SkyCoord,match_coordinates_sky,Angle
